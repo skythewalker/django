@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+{% block content %}
+test content for forms
+<form method="POST">
+    {% csrf_token %}
+    {{form.as_p}}
+<button>Search Organization</button>
+</form>
+
+{% endblock %}
+

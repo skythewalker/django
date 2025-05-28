@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(11, 11, 11);
+    color: #ffffff;
+  
+}
+
+h1{
+    text-align: center;
+    font-size: 2em;
+}
+.navbar{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    width: 50%;
+    margin-top: 50px;
+    justify-content: space-evenly;
+}
+.navbar ul a{
+    text-decoration: none;
+    font-size: larger;
+    color: #ffffff;
+}
+.heading{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
